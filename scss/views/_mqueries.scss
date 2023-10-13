@@ -1,0 +1,263 @@
+@media screen and (min-width:1200px) {
+	.grid-contenedor {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		gap: 40px;
+		padding: 30px;
+	}
+
+	.grid-item {
+		height: 230px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.grid-contenedor {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+
+	.grid-item {
+		img {
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+
+	.nosotros {
+		p {
+			line-height: 1.7;
+		}
+
+		img {
+			height: 560px;
+		}
+
+	}
+
+	.img-nosotros {
+		width: 42%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	footer {
+		.container {
+			padding: 40px 15px;
+			margin-bottom: 30px;
+		}
+
+		text-align: center;
+
+		.redes {
+			justify-content: center;
+		}
+
+		.logo-footer {
+			width: 100%;
+			padding-bottom: 10px;
+		}
+	}
+
+	.nav-item {
+		border: 1px solid rgba(154, 144, 108, 1);
+		font-size: 16px;
+		text-align: center;
+		padding: 5px 10px;
+	}
+
+	#pizzas {
+		.container {
+			.destacados {
+				width: 45%;
+			}
+		}
+	}
+
+	.nosotros {
+		p {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
+
+	.img-nosotros {
+		width: 43%;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	.contactenos {
+		.container {
+			margin-top: 180px;
+			margin-bottom: 70px;
+			width: 60%;
+		}
+	}
+
+	.ubicacion {
+		.container {
+			width: 80%;
+		}
+	}
+
+	.dropdown-menu-dark {
+		background-color: gray;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		.logo {
+			width: 210px;
+			margin: 0;
+		}
+	}
+
+	footer {
+		text-align: center;
+
+		.redes {
+			justify-content: center;
+		}
+
+		.logo-footer {
+			width: 100%;
+			padding-bottom: 10px;
+		}
+
+		ul {
+			margin-top: 10px;
+		}
+
+		.h3 {
+			//clase encabezados footer
+			margin-top: 15px;
+		}
+	}
+
+	#pizzas {
+		.container {
+			.destacados {
+				width: 45%;
+			}
+		}
+	}
+
+	.grid-contenedor {
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.img-nosotros {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+	.contactenos {
+		.container {
+			width: 80%;
+		}
+	}
+
+	.ubicacion {
+		.container {
+			width: 90%;
+		}
+	}
+
+	.fas.fa-chevron-down.fa-3x {
+		display: none;
+	}
+
+	.gotopbtn {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	header {
+		.logo {
+			width: 190px;
+			height: 70px;
+		}
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	#pizzas {
+		.h2-destacados {
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+
+		.container {
+			.destacados {
+				width: 70%;
+			}
+		}
+	}
+
+	.grid-item {
+		img {
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	.carousel {
+		img {
+			height: 60vh; //altura a ocupar del viewport en mobile
+		}
+	}
+
+	.nosotros {
+		img {
+			height: 400px;
+		}
+	}
+
+	.img-nosotros {
+		width: 85%;
+	}
+
+	.galeria-nosotros {
+		img {
+			&:hover {
+				transform: scale(1.1); //reduccion de scale para no generar scroll lateral en responsive
+			}
+		}
+	}
+
+	.contactenos {
+		.container {
+			width: 90%;
+		}
+	}
+
+	#acercadenosotros {
+		padding: 0 30px 10px 30px;
+	}
+
+	.ubicacion {
+		.container {
+			width: 95%;
+		}
+	}
+}
+
+@media screen and (min-width: 768px){
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: repeat(2, 1fr);
+	  grid-template-rows: repeat(3, 1fr);
+  }
+}

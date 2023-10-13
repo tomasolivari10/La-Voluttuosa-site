@@ -1,0 +1,51 @@
+.h2-destacados {
+	//encabezados index seccion pizzas
+	font-size: 50px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	color: $color_3;
+}
+
+.h2-galeria {
+	//encabezado html galeria
+	text-align: center;
+	font: 75px "Alegreya", serif;
+	border-bottom: 1px dashed rgb(154, 144, 108);
+	padding-top: 155px;
+	margin-bottom: 40px;
+	color: rgb(154, 144, 108);
+}
+
+.h2-gluten-free {
+	//encabezado html gluten free
+	font-size: 50px;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 35px;
+	color: $color_3;
+}
+
+.h2-contactenos {
+	//encabezado formulario de contacto
+	font: 35px 'Alegreya', serif;
+	color: $color_2;
+}
+
+.h3 {
+	//clase encabezados footer
+	font-size: 20px;
+	color: $color_3;
+}
+
+.h4-gluten {
+	//encabezado html menu
+	text-align: start;
+	font: 50px 'Alegreya', serif;
+	color: $color_3;
+	border-bottom: double rgba(154, 144, 108, 1);
+	margin-bottom: 20px;
+	margin-left: 28px;
+	margin-right: 28px;
+	padding: 0;
+}

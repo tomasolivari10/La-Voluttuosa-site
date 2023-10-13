@@ -1,0 +1,37 @@
+.carousel {
+	z-index: 4;
+
+	img {
+		height: 530px;
+		margin-top: 95px; //margin top por la posicion fija del header
+	}
+
+	h5 {
+		font: 47px 'Alegreya', serif;
+		padding-bottom: 10px;
+		color: $color_2;
+	}
+
+	p {
+		font-size: 30px;
+		padding-bottom: 5px;
+		color: $color_2;
+		font-family: $font-family_1;
+	}
+}
+
+.carousel-item {
+	img {
+		animation: anopacity 4s ease-in-out;
+	}
+}
+
+@keyframes anopacity {
+	0% {
+		opacity: 0.02;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,43 @@
+.navbar-brand {
+	margin-right: 0;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-dark.bg-dark {
+	background-color: $background-color_1 !important; //prioridad para este color antes del predeterminado de bootstrap
+}
+
+.nav-item {
+	padding: 0 10px;
+	color: $color_2;
+	font-size: map-get($font-sizes, "medium");
+}
+
+.dropdown-menu-dark {
+	background-color: $background-color_1;
+	border: 2px solid rgba(154, 144, 108, 1);
+}
+
+.dropdown-item:hover {
+	color: $color_3 !important;
+}
+
+.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			color: $color_2;
+
+			&:hover {
+				color: $color_3;
+			}
+		}
+	}
+
+	.navbar-toggler {
+		color: $color_3;
+		border-color: $border-color_1;
+	}
+}

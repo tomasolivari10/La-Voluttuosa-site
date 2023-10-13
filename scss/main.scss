@@ -1,0 +1,12 @@
+@import "./variables/variables"; //variables de colores y fuentes
+@import "./normalize/reset";
+@import "./components/sections"; //elementos generales (header y footer)
+@import "./components/navbar";
+@import "./components/headings"; //etiquetas h 
+@import "./layout/layout"; //secciones con flex o grids 
+@import "./components/carousel";
+@import "./components/cards";
+@import "./components/list";
+@import "./components/images";
+@import "./components/btn"; //botones
+@import "./views/mqueries";

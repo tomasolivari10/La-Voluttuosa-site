@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font-family_1;
+	font-family: $font-family_2;
+	margin: auto;
+	font-size: map-get($font-sizes, "small");
+	background-color: $background-color_1;
+}
+
+p {
+	color: $color_1;
+}
+
+a {
+	text-decoration: none;
+	color: $color_2;
+}
+
+h1 {
+	font-family: $font-family_1;
+	font-size: 33px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-family: $font-family_1;
+}
+
+h4 {
+	color: $color_2;
+	font-size: 20px;
+	color: $color_1;
+}
